@@ -7,12 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CQRS\Command\" />
-    <Folder Include="Features\CQRS\Handler\" />
-    <Folder Include="Features\CQRS\Query\" />
     <Folder Include="interfaces\" />
     <Folder Include="Dtos\" />
     <Folder Include="Enums\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\infrastructure\Persistance\JWTproject.Persistance.csproj" />
   </ItemGroup>
 
 </Project>
