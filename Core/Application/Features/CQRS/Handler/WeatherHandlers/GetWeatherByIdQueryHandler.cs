@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using JWTProject.Application.CQRS.Queries.WeatherQuery;
-using JWTProject.Application.CQRS.Results.WeatherResults;
 using JWTProject.Persistance.Context;
 using Microsoft.EntityFrameworkCore;
 using JWTproject.Application.Features.CQRS.Result.WeatherResults;

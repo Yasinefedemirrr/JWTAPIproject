@@ -2,7 +2,7 @@
 
 namespace JWTProject.Application.CQRS.Commands.WeatherCommands
 {
-    public class UpdateWeatherCommand : IRequest
+    public class UpdateWeatherCommand : IRequest<Unit>
     {
         public int Id { get; set; }
         public string city { get; set; }
