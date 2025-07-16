@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\CQRS\Command\" />
+    <Folder Include="Features\CQRS\Handler\" />
+    <Folder Include="Features\CQRS\Query\" />
+    <Folder Include="interfaces\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
+</Project>
